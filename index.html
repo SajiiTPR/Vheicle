@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <style>
+        .btn{
+            background-color: darkblue !important;
+            border: none !important;
+            color: aliceblue;
+        }
+        #background{
+            background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .3));
+            
+            z-index: 1000;            
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark position-sticky top-0">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="#">JEEP WRANGLER</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BRAND</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                TYPES
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">MORE</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search here" aria-label="Search" />
+                        <button class="btn btn-primary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- body section -->
+    <main>
+        <!-- home part of image page -->
+        <section>
+            <div class="" id="home">
+                <img src="./assets/image/jeep1.png" class="card-img-top img-fluid" alt="jeep image"
+                    style="height: 70vh; object-fit: cover;" />
+            </div>
+        </section>
+
+        <!-- about section -->
+        <section>
+            <div class="container my-5">
+                <h2 class="my-2 text-center text-uppercase">About US</h2>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img src="./assets/image/jeep2.png" alt="Jeep Wrangler" class="img-fluid object-fit-cover" />
+                    </div>
+                    <div class="col-md-6">
+                        <p class="mb-5">The Jeep Wrangler is a rugged and iconic off-road vehicle known for its
+                            distinctive design and
+                            exceptional performance in challenging terrains. With its robust build, advanced 4x4
+                            capabilities, and versatile features, the Wrangler is a favorite among adventure enthusiasts
+                            and outdoor lovers. Whether navigating rocky trails or cruising through city streets, the
+                            Jeep
+                            Wrangler offers a thrilling driving experience combined with modern comforts and technology.
+                        </p>
+
+                        <button class="btn btn-primary text-capitalize px-4 border-0">Order now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- modification part -->
+        <section>
+            <h2 class="my-2 text-center text-uppercase">modification part</h2>
+            <div class="container py-5">
+                <div class="row">
+
+                    <!-- card 01 -->
+                    <div class="col-md-3">
+                        <div class="card border-0 ">
+                            <img src="./assets/image/parts1.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center d-flex flex-column align-items-center gap-2">
+                                <h5 class="card-title">Alloy wheel</h5>
+                                <p class="card-text">in bold
+                                    usuary rnatte block. chron alloy
+                                    both strength and</p>
+                                <a href="#" class="btn btn-primary px-5">more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 02 -->
+                    <div class="col-md-3">
+                        <div class="card border-0 ">
+                            <img src="./assets/image/parts2.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center d-flex flex-column align-items-center gap-2">
+                                <h5 class="card-title">Alloy wheel</h5>
+                                <p class="card-text">in bold
+                                    usuary rnatte block. chron alloy
+                                    both strength and</p>
+                                <a href="#" class="btn btn-primary px-5">more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 03 -->
+                    <div class="col-md-3">
+                        <div class="card border-0 ">
+                            <img src="./assets/image/parts3.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center d-flex flex-column align-items-center gap-2">
+                                <h5 class="card-title">Alloy wheel</h5>
+                                <p class="card-text">in bold
+                                    usuary rnatte block. chron alloy
+                                    both strength and</p>
+                                <a href="#" class="btn btn-primary px-5">more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 04 -->
+                    <div class="col-md-3">
+                        <div class="card border-0">
+                            <img src="./assets/image/parts4.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Alloy wheel</h5>
+                                <p class="card-text">in bold
+                                    usuary rnatte block. chron alloy
+                                    both strength and</p>
+                                <a href="#" class="btn btn-primary px-5">more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- content jeep  -->
+        <section>
+            <div class="container my-2">
+
+                <div>
+                    <div class="card text-bg-dark rounded-2 my-5 bg-dark bg-gradient bg-opacity-25">
+                        <img src="./assets/image/jeep3.png" class="card-img card-img-bottom img-fluid rounded-2 "
+                            alt="jeep 3 image" style="height: 50vh; object-fit: cover; border: none;">
+                        <div  id="background"
+                            class="card-img-overlay text-center d-flex flex-column align-items-center justify-content-center">
+                            <h2 class="card-title">JEEP WRANGLER</h2>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <BUTTON class="btn btn-primary px-4">Explore more</BUTTON>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- services -->
+
+        <section>
+            <h2 class="my-2 text-center text-uppercase">services</h2>
+            <div class="container py-5">
+                <div class="row">
+
+                    <!-- card 01 -->
+                    <div class="col-md-6">
+                        <div class="card mb-3 border-0 shadow">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assets/image/jeep4.png"
+                                        class="img-fluid rounded-start object-fit-cover h-auto" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body" style="height: 150px;">
+                                        <h5 class="card-title">Jeep Maintenance</h5>
+                                        <p class="card-text">Keep Jeep running strong with Oil and expert care.</p>
+                                        <p class="card-text"><small class="text-body-secondary">updated 5 mins
+                                                ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 02 -->
+                    <div class="col-md-6">
+                        <div class="card mb-3 border-0 shadow">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assets/image/jeep5.png"
+                                        class="img-fluid rounded-start object-fit-cover h-auto" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body" style="height: 150px;">
+                                        <h5 class="card-title">Custom Modifications</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to
+                                        </p>
+                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                                ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 03 -->
+                    <div class="col-md-6">
+                        <div class="card mb-3 border-0 shadow">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assets/image/jeep6.png" class="img-fluid rounded-start object-fit-cover"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body" style="height: 150px;">
+                                        <h5 class="card-title">Body & Paint Repairs</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to
+                                        </p>
+                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                                ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 04 -->
+                    <div class="col-md-6">
+                        <div class="card mb-3 border-0 shadow">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assets/image/jeep7.png" class="img-fluid rounded-start object-fit-cover"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body" style="height: 150px;">
+                                        <h5 class="card-title">Interior & Exterior Detailing</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to
+                                        </p>
+                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                                ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- contact ussenction -->
+
+        <section>
+            <div class="container my-5">
+                <h2 class="my-2 text-center text-uppercase">Contact us</h2>
+                <div class="row py-5">
+
+                    <!-- left side image -->
+                    <div class="col-md-6">
+                        <img src="./assets/image/jeep1.png" class="img-fluid rounded h-100 float-end border-0 shadow" alt="...">
+                    </div>
+
+                    <!-- right side form -->
+                    <div class="col-md-6">
+
+                        <div class="row">
+
+                            <div class="col-md-6 mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                            </div>
+                            <div class=" mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Address 1</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="no.36/c, main streen">
+                            </div>
+                            <div class=" mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Address 2</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="eastern, kalmunai">
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">City</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">State</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">trincomalee</option>
+                                    <option value="2">muthur</option>
+                                    <option value="3">thoppur</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-2 mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Zip</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                            </div>
+
+                            <div>
+                                <button class="btn btn-primary text-center w-50 float-start">Contact</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
